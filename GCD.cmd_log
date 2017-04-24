@@ -1,0 +1,105 @@
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -timing -logic_opt off -ol high -xe n -t 1 -register_duplication off -cm area -ir off -pr b -power off -o GCD_map.ncd GCD.ngd GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+xst -intstyle ise -ifn "E:/Xylinx/Project/GCD.xst" -ofn "E:/Xylinx/Project/GCD.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ipcore_dir -nt timestamp -i -p xc3s500e-fg320-4 GCD.ngc GCD.ngd  
+map -intstyle ise -p xc3s500e-fg320-4 -cm area -ir off -pr off -c 100 -o GCD_map.ncd GCD.ngd GCD.pcf 
+par -w -intstyle ise -ol high -t 1 GCD_map.ncd GCD.ncd GCD.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml GCD.twx GCD.ncd -o GCD.twr GCD.pcf 

@@ -1,0 +1,661 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'GCD'
+
+Design Information
+------------------
+Command Line   : map -u GCD.ngd 
+Target Device  : xc3s500e
+Target Package : fg320
+Target Speed   : -4
+Mapper Version : spartan3e -- $Revision: 1.55 $
+Mapped Date    : Sun Apr 23 03:00:16 2017
+
+Design Summary
+--------------
+Number of errors:      0
+Number of warnings:    1
+Logic Utilization:
+Logic Distribution:
+    Number of Slices containing only related logic:       0 out of       0   0%
+    Number of Slices containing unrelated logic:          0 out of       0   0%
+      *See NOTES below for an explanation of the effects of unrelated logic.
+  Number of bonded IOBs:                  1 out of     232    1%
+
+Average Fanout of Non-Clock Nets:                0.00
+
+Peak Memory Usage:  349 MB
+Total REAL time to MAP completion:  2 secs 
+Total CPU time to MAP completion:   2 secs 
+
+NOTES:
+
+   Related logic is defined as being logic that shares connectivity - e.g. two
+   LUTs are "related" if they share common inputs.  When assembling slices,
+   Map gives priority to combine logic that is related.  Doing so results in
+   the best timing performance.
+
+   Unrelated logic shares no connectivity.  Map will only begin packing
+   unrelated logic into a slice once 99% of the slices are occupied through
+   related logic packing.
+
+   Note that once logic distribution reaches the 99% level through related
+   logic packing, this does not mean the device is completely utilized.
+   Unrelated logic packing will then begin, continuing until all usable LUTs
+   and FFs are occupied.  Depending on your timing budget, increased levels of
+   unrelated logic packing may adversely affect the overall timing performance
+   of your design.
+
+Table of Contents
+-----------------
+Section 1 - Errors
+Section 2 - Warnings
+Section 3 - Informational
+Section 4 - Removed Logic Summary
+Section 5 - Removed Logic
+Section 6 - IOB Properties
+Section 7 - RPMs
+Section 8 - Guide Report
+Section 9 - Area Group and Partition Summary
+Section 10 - Timing Report
+Section 11 - Configuration String Information
+Section 12 - Control Set Information
+Section 13 - Utilization by Hierarchy
+
+Section 1 - Errors
+------------------
+
+Section 2 - Warnings
+--------------------
+WARNING:PhysDesignRules:367 - The signal <clk_BUFGP/IBUFG> is incomplete. The
+   signal does not drive any load pins in the design.
+
+Section 3 - Informational
+-------------------------
+INFO:MapLib:562 - No environment variables are currently set.
+
+Section 4 - Removed Logic Summary
+---------------------------------
+ 252 block(s) removed
+ 255 signal(s) removed
+
+Section 5 - Removed Logic
+-------------------------
+
+The trimmed logic report below shows the logic removed from your design due to
+sourceless or loadless signals, and VCC or ground connections.  If the removal
+of a signal or symbol results in the subsequent removal of an additional signal
+or symbol, the message explaining that second removal will be indented.  This
+indentation will be repeated as a chain of related logic is removed.
+
+To quickly locate the original cause for the removal of a chain of logic, look
+above the place where that logic is listed in the trimming report, then locate
+the lines that are least indented (begin at the leftmost edge).
+
+The signal "sharat/N0" is sourceless and has been removed.
+The signal "sharat/N1" is sourceless and has been removed.
+
+The trimmed logic reported below is either:
+   1. part of a cycle
+   2. part of disabled logic
+   3. a side-effect of other trimmed logic
+
+The signal "Madd_AUX_12_addsub0000_cy<1>" is unused and has been removed.
+ Unused block "Madd_AUX_12_addsub0000_cy<1>11" (ROM) removed.
+  The signal "_old_a_10<1>" is unused and has been removed.
+   Unused block "_old_a_10<1>1" (ROM) removed.
+    The signal "douta<1>" is unused and has been removed.
+    The signal "a<1>" is unused and has been removed.
+     Unused block "a_1" (LATCH) removed.
+      The signal "a_mux0000<1>" is unused and has been removed.
+       Unused block "a_mux0000<1>99" (ROM) removed.
+        The signal "N13" is unused and has been removed.
+         Unused block "jmp_mux0000<2>11" (ROM) removed.
+          The signal "douta<0>" is unused and has been removed.
+          The signal "c_and0000" is unused and has been removed.
+           Unused block "hlt_not000111" (ROM) removed.
+            The signal "_old_jmp_8<0>" is unused and has been removed.
+             Unused block "_old_jmp_8<0>1" (ROM) removed.
+              The signal "jmp<0>" is unused and has been removed.
+               Unused block "jmp_0" (FF) removed.
+                The signal "counter<2>" is unused and has been removed.
+                 Unused block "counter_2_BUFG" (CKBUF) removed.
+                  The signal "counter_21" is unused and has been removed.
+                   Unused block "counter_2" (FF) removed.
+                    The signal "clk_BUFGP" is unused and has been removed.
+                     Unused block "clk_BUFGP/BUFG" (CKBUF) removed.
+                    The signal "Result<2>" is unused and has been removed.
+                     Unused block "Result<2>1" (ROM) removed.
+                      The signal "counter<0>" is unused and has been removed.
+                       Unused block "counter_0" (SFF) removed.
+                        The signal "N1" is unused and has been removed.
+                         Unused block "XST_VCC" (ONE) removed.
+                      The signal "counter<1>" is unused and has been removed.
+                       Unused block "counter_1" (FF) removed.
+                        The signal "Result<1>" is unused and has been removed.
+                         Unused block "Mcount_counter_xor<1>11" (ROM) removed.
+                The signal "c_0_not0000" is unused and has been removed.
+                 Unused block "c_0_not00001_INV_0" (BUF) removed.
+                  The signal "hlt" is unused and has been removed.
+                   Unused block "hlt" (FF) removed.
+                    The signal "hlt_not0001" is unused and has been removed.
+                     Unused block "hlt_not0001" (ROM) removed.
+                      The signal "douta<3>" is unused and has been removed.
+                      The signal "N01" is unused and has been removed.
+                       Unused block "hlt_not0001_SW0" (ROM) removed.
+                        The signal "douta<2>" is unused and has been removed.
+                The signal "jmp_mux0000<3>" is unused and has been removed.
+                 Unused block "jmp_mux0000<3>72" (MUX) removed.
+                  The signal "N81" is unused and has been removed.
+                   Unused block "jmp_mux0000<3>72_F" (ROM) removed.
+                    The signal "jmp<3>" is unused and has been removed.
+                     Unused block "jmp_3" (FF) removed.
+                      The signal "jmp_mux0000<0>" is unused and has been removed.
+                       Unused block "jmp_mux0000<0>1" (ROM) removed.
+                        The signal "jmp<2>" is unused and has been removed.
+                         Unused block "jmp_2" (FF) removed.
+                          The signal "jmp_mux0000<1>" is unused and has been removed.
+                           Unused block "jmp_mux0000<1>1" (ROM) removed.
+                            The signal "jmp<1>" is unused and has been removed.
+                             Unused block "jmp_1" (FF) removed.
+                              The signal "jmp_mux0000<2>" is unused and has been removed.
+                               Unused block "jmp_mux0000<2>" (ROM) removed.
+                                The signal "N32" is unused and has been removed.
+                                 Unused block "jmp_mux0000<2>_SW1" (ROM) removed.
+                                  The signal "c" is unused and has been removed.
+                                   Unused block "c" (LATCH) removed.
+                                    The signal "c_mux0000" is unused and has been removed.
+                                     Unused block "c_mux0000190" (ROM) removed.
+                                      The signal "N31" is unused and has been removed.
+                                       Unused block "c_mux0000221" (ROM) removed.
+                                      The signal "N73" is unused and has been removed.
+                                       Unused block "c_mux0000190_SW0" (MUX) removed.
+                                        The signal "N89" is unused and has been removed.
+                                         Unused block "c_mux0000190_SW0_F" (ROM) removed.
+                                          The signal "c_mux000012" is unused and has been removed.
+                                           Unused block "c_mux000012_f5" (MUX) removed.
+                                            The signal "c_mux0000122" is unused and has been removed.
+                                             Unused block "c_mux0000122" (ROM) removed.
+                                              The signal "z_cmp_eq0000" is unused and has been removed.
+                                               Unused block "z_mux000021" (ROM) removed.
+                                              The signal "_old_a_10<3>" is unused and has been removed.
+                                               Unused block "_old_a_10<3>1" (ROM) removed.
+                                                The signal "a<3>" is unused and has been removed.
+                                                 Unused block "a_3" (LATCH) removed.
+*The signal "a_mux0000<3>" is unused and has been removed.
+* Unused block "a_mux0000<3>68" (ROM) removed.
+*  The signal "a_mux0000<3>4" is unused and has been removed.
+*   Unused block "a_mux0000<3>4" (ROM) removed.
+*    The signal "N11" is unused and has been removed.
+*     Unused block "a_mux0000<0>11" (ROM) removed.
+*      The signal "N36" is unused and has been removed.
+*       Unused block "hlt_not000121" (ROM) removed.
+*    The signal "_old_b_9<3>" is unused and has been removed.
+*     Unused block "_old_b_9<3>1" (ROM) removed.
+*      The signal "b<3>" is unused and has been removed.
+*       Unused block "b_3" (LATCH) removed.
+*        The signal "b_mux0000<3>" is unused and has been removed.
+*         Unused block "b_mux0000<3>78" (ROM) removed.
+*          The signal "b_mux0000<3>0" is unused and has been removed.
+*           Unused block "b_mux0000<3>0" (ROM) removed.
+*            The signal "N3" is unused and has been removed.
+*             Unused block "b_mux0000<0>11" (ROM) removed.
+*            The signal "wa<2>" is unused and has been removed.
+*             Unused block "wa_2" (FF) removed.
+*              The signal "wa_mux0000<0>" is unused and has been removed.
+*               Unused block "wa_mux0000<0>1" (ROM) removed.
+*                The signal "a_cmp_eq0001" is unused and has been removed.
+*                 Unused block "a_cmp_eq00011" (ROM) removed.
+*          The signal "b_mux0000<3>44" is unused and has been removed.
+*           Unused block "b_mux0000<3>44" (MUX) removed.
+*            The signal "N911" is unused and has been removed.
+*             Unused block "b_mux0000<3>44_F" (ROM) removed.
+*              The signal "b_mux0000<1>24" is unused and has been removed.
+*               Unused block "b_mux0000<1>24" (ROM) removed.
+*              The signal "Madd_AUX_12_addsub0000_lut<3>" is unused and has been removed.
+*               Unused block "Madd_AUX_12_addsub0000_lut<3>1" (ROM) removed.
+*              The signal "_old_a_10<2>" is unused and has been removed.
+*               Unused block "_old_a_10<2>1" (ROM) removed.
+*                The signal "a<2>" is unused and has been removed.
+*                 Unused block "a_2" (LATCH) removed.
+*                  The signal "a_mux0000<2>" is unused and has been removed.
+*                   Unused block "a_mux0000<2>68" (ROM) removed.
+*                    The signal "a_mux0000<2>4" is unused and has been removed.
+*                     Unused block "a_mux0000<2>4" (ROM) removed.
+*                      The signal "_old_b_9<2>" is unused and has been removed.
+*                       Unused block "_old_b_9<2>1" (ROM) removed.
+*                        The signal "b<2>" is unused and has been removed.
+*                         Unused block "b_2" (LATCH) removed.
+*                          The signal "b_mux0000<2>" is unused and has been removed.
+*                           Unused block "b_mux0000<2>78" (ROM) removed.
+*                            The signal "b_mux0000<2>25" is unused and has been removed.
+*                             Unused block "b_mux0000<2>25" (ROM) removed.
+*                              The signal "b_cmp_eq0002" is unused and has been removed.
+*                               Unused block "b_cmp_eq00021" (ROM) removed.
+*                              The signal "b_mux0000<2>1" is unused and has been removed.
+*                               Unused block "b_mux0000<2>1" (ROM) removed.
+*                                The signal "b_cmp_eq0000" is unused and has been removed.
+*                                 Unused block "b_cmp_eq00001" (ROM) removed.
+*                              The signal "Msub__AUX_13_lut<2>" is unused and has been removed.
+*                               Unused block "Msub__AUX_13_lut<2>1" (ROM) removed.
+*                                The signal "bra<1>" is unused and has been removed.
+*                                 Unused block "bra_1" (FF) removed.
+*                                  The signal "bra_mux0000<1>" is unused and has been removed.
+*                                   Unused block "bra_mux0000<1>1" (ROM) removed.
+*                                    The signal "old_addra_16_and0000" is unused and has been removed.
+*                                     Unused block "bra_cmp_eq000011" (ROM) removed.
+*                                The signal "_old_a_2<2>" is unused and has been removed.
+*                                 Unused block "_old_a_2<2>1" (ROM) removed.
+*                                  The signal "wa<1>" is unused and has been removed.
+*                                   Unused block "wa_1" (FF) removed.
+*                                    The signal "wa_mux0000<1>" is unused and has been removed.
+*                                     Unused block "wa_mux0000<1>1" (ROM) removed.
+*                            The signal "b_mux0000<2>0" is unused and has been removed.
+*                             Unused block "b_mux0000<2>0" (ROM) removed.
+*                      The signal "N6" is unused and has been removed.
+*                       Unused block "a_mux0000<0>21" (ROM) removed.
+*                    The signal "a_mux0000<2>38" is unused and has been removed.
+*                     Unused block "a_mux0000<2>38" (ROM) removed.
+*                      The signal "z_cmp_eq0002" is unused and has been removed.
+*                       Unused block "c_mux000011" (ROM) removed.
+*                      The signal "Msub__AUX_13_cy<1>" is unused and has been removed.
+*                       Unused block "Msub__AUX_13_cy<1>11" (ROM) removed.
+*                        The signal "_old_a_10<0>" is unused and has been removed.
+*                         Unused block "_old_a_10<0>1" (ROM) removed.
+*                          The signal "a<0>" is unused and has been removed.
+*                           Unused block "a_0" (LATCH) removed.
+*                            The signal "a_mux0000<0>" is unused and has been removed.
+*                             Unused block "a_mux0000<0>19" (ROM) removed.
+*                              The signal "a_mux0000<0>4" is unused and has been removed.
+*                               Unused block "a_mux0000<0>4" (ROM) removed.
+*                                The signal "_old_b_9<0>" is unused and has been removed.
+*                                 Unused block "_old_b_9<0>1" (ROM) removed.
+*                                  The signal "b<0>" is unused and has been removed.
+*                                   Unused block "b_0" (LATCH) removed.
+*                                    The signal "b_mux0000<0>" is unused and has been removed.
+*                                     Unused block "b_mux0000<0>29" (ROM) removed.
+*                                      The signal "N77" is unused and has been removed.
+*                                       Unused block "b_mux0000<0>29_SW0" (ROM) removed.
+*                                        The signal "Madd_AUX_12_addsub0000_lut<0>" is unused and has been removed.
+*                                         Unused block "Madd_AUX_12_addsub0000_lut<0>1" (ROM) removed.
+*                        The signal "Msub__AUX_13_lut<1>" is unused and has been removed.
+*                         Unused block "Msub__AUX_13_lut<1>1" (ROM) removed.
+*                          The signal "_old_a_2<1>" is unused and has been removed.
+*                           Unused block "_old_a_2<1>1" (ROM) removed.
+*              The signal "Madd_AUX_12_addsub0000_lut<2>" is unused and has been removed.
+*               Unused block "Madd_AUX_12_addsub0000_lut<2>1" (ROM) removed.
+*            The signal "N92" is unused and has been removed.
+*             Unused block "b_mux0000<3>44_G" (ROM) removed.
+*  The signal "a_mux0000<3>38" is unused and has been removed.
+*   Unused block "a_mux0000<3>38" (MUX) removed.
+*    The signal "N93" is unused and has been removed.
+*     Unused block "a_mux0000<3>38_F" (ROM) removed.
+*      The signal "Msub__AUX_13_lut<3>" is unused and has been removed.
+*       Unused block "Msub__AUX_13_lut<3>1" (ROM) removed.
+*        The signal "_old_a_2<3>" is unused and has been removed.
+*         Unused block "_old_a_2<3>1" (ROM) removed.
+*    The signal "N94" is unused and has been removed.
+*     Unused block "a_mux0000<3>38_G" (ROM) removed.
+*  The signal "a_mux0000<3>21" is unused and has been removed.
+*   Unused block "a_mux0000<3>21" (MUX) removed.
+*    The signal "N87" is unused and has been removed.
+*     Unused block "a_mux0000<3>21_F" (ROM) removed.
+*    The signal "N88" is unused and has been removed.
+*     Unused block "a_mux0000<3>21_G" (ROM) removed.
+                                            The signal "c_mux0000121" is unused and has been removed.
+                                             Unused block "c_mux0000121" (ROM) removed.
+                                          The signal "c_mux0000118" is unused and has been removed.
+                                           Unused block "c_mux0000118" (ROM) removed.
+                                            The signal "c_mux0000102" is unused and has been removed.
+                                             Unused block "c_mux0000102" (ROM) removed.
+                                              The signal "Msub__AUX_13_lut<0>" is unused and has been removed.
+                                               Unused block "Msub__AUX_13_lut<0>1" (ROM) removed.
+                                                The signal "_old_a_2<0>" is unused and has been removed.
+                                                 Unused block "_old_a_2<0>1" (ROM) removed.
+                                            The signal "N79" is unused and has been removed.
+                                             Unused block "c_mux0000118_SW0" (ROM) removed.
+                                              The signal "c_mux000079" is unused and has been removed.
+                                               Unused block "c_mux000079" (ROM) removed.
+                                                The signal "c_cmp_gt00001" is unused and has been removed.
+                                                 Unused block "c_cmp_gt00001" (ROM) removed.
+*The signal "_old_b_9<1>" is unused and has been removed.
+* Unused block "_old_b_9<1>1" (ROM) removed.
+*  The signal "b<1>" is unused and has been removed.
+*   Unused block "b_1" (LATCH) removed.
+*    The signal "b_mux0000<1>" is unused and has been removed.
+*     Unused block "b_mux0000<1>106" (ROM) removed.
+*      The signal "b_mux0000<1>94" is unused and has been removed.
+*       Unused block "b_mux0000<1>94" (ROM) removed.
+*        The signal "b_mux0000<1>1" is unused and has been removed.
+*         Unused block "b_mux0000<1>1" (ROM) removed.
+*        The signal "b_mux0000<1>76" is unused and has been removed.
+*         Unused block "b_mux0000<1>76" (ROM) removed.
+                                          The signal "c_mux000061" is unused and has been removed.
+                                           Unused block "c_mux000061_f5" (MUX) removed.
+                                            The signal "c_mux0000612" is unused and has been removed.
+                                             Unused block "c_mux0000612" (ROM) removed.
+                                            The signal "c_mux0000611" is unused and has been removed.
+                                             Unused block "c_mux0000611" (ROM) removed.
+                                        The signal "N90" is unused and has been removed.
+                                         Unused block "c_mux0000190_SW0_G" (ROM) removed.
+                                          The signal "c_mux000025" is unused and has been removed.
+                                           Unused block "c_mux000025" (MUX) removed.
+                                            The signal "N83" is unused and has been removed.
+                                             Unused block "c_mux000025_F" (ROM) removed.
+                                            The signal "N84" is unused and has been removed.
+                                             Unused block "c_mux000025_G" (ROM) removed.
+                                              The signal "Msub__AUX_14_cy<1>" is unused and has been removed.
+                                               Unused block "Msub__AUX_14_cy<1>11" (ROM) removed.
+                                      The signal "c_mux0000180" is unused and has been removed.
+                                       Unused block "c_mux0000180" (ROM) removed.
+                                        The signal "N41" is unused and has been removed.
+                                         Unused block "z_mux0000321" (ROM) removed.
+                                The signal "N2" is unused and has been removed.
+                                 Unused block "jmp_mux0000<2>_SW0" (ROM) removed.
+                                  The signal "z" is unused and has been removed.
+                                   Unused block "z" (FF) removed.
+                                    The signal "z_not0001" is unused and has been removed.
+                                     Unused block "z_not00011" (ROM) removed.
+                                    The signal "z_mux0000" is unused and has been removed.
+                                     Unused block "z_mux0000138" (ROM) removed.
+                                      The signal "z_mux00002" is unused and has been removed.
+                                       Unused block "z_mux00002" (ROM) removed.
+                                      The signal "z_mux0000100" is unused and has been removed.
+                                       Unused block "z_mux0000100" (ROM) removed.
+                                        The signal "z_mux000082" is unused and has been removed.
+                                         Unused block "z_mux000082" (ROM) removed.
+                                          The signal "Madd_AUX_12_addsub0000_lut<1>" is unused and has been removed.
+                                           Unused block "Madd_AUX_12_addsub0000_lut<1>1" (ROM) removed.
+                                        The signal "N58" is unused and has been removed.
+                                         Unused block "z_mux0000100_SW2_SW0" (ROM) removed.
+                  The signal "N82" is unused and has been removed.
+                   Unused block "jmp_mux0000<3>72_G" (ROM) removed.
+                    The signal "jmp_mux0000<3>25" is unused and has been removed.
+                     Unused block "jmp_mux0000<3>25_f5" (MUX) removed.
+                      The signal "jmp_mux0000<3>251" is unused and has been removed.
+                       Unused block "jmp_mux0000<3>251" (ROM) removed.
+            The signal "_old_bra_7<0>" is unused and has been removed.
+             Unused block "_old_bra_7<0>1" (ROM) removed.
+              The signal "bra<0>" is unused and has been removed.
+               Unused block "bra_0" (FF) removed.
+                The signal "bra_mux0000<2>" is unused and has been removed.
+                 Unused block "bra_mux0000<2>1" (ROM) removed.
+              The signal "bra<2>" is unused and has been removed.
+               Unused block "bra_2" (FF) removed.
+                The signal "bra_mux0000<0>" is unused and has been removed.
+                 Unused block "bra_mux0000<0>1" (ROM) removed.
+            The signal "_old_wa_5<0>" is unused and has been removed.
+             Unused block "_old_wa_5<0>1" (ROM) removed.
+              The signal "wa<0>" is unused and has been removed.
+               Unused block "wa_0" (FF) removed.
+                The signal "wa_mux0000<2>" is unused and has been removed.
+                 Unused block "wa_mux0000<2>1" (ROM) removed.
+        The signal "a_mux0000<1>4" is unused and has been removed.
+         Unused block "a_mux0000<1>4" (ROM) removed.
+        The signal "a_mux0000<1>65" is unused and has been removed.
+         Unused block "a_mux0000<1>65" (ROM) removed.
+The signal "Madd_addra_add0000_cy<0>" is unused and has been removed.
+ Unused block "_old_addra_16<0>2" (ROM) removed.
+The signal "Madd_addra_add0000_cy<3>" is unused and has been removed.
+ Unused block "Madd_addra_add0000_cy<3>11" (ROM) removed.
+  The signal "Madd_addra_add0000_lut<3>" is unused and has been removed.
+   Unused block "_old_addra_16<3>1" (ROM) removed.
+    The signal "_old_addra_15<3>" is unused and has been removed.
+     Unused block "_old_addra_15<3>" (MUX) removed.
+      The signal "N71" is unused and has been removed.
+       Unused block "_old_addra_15<3>_F" (ROM) removed.
+        The signal "mem<3>" is unused and has been removed.
+         Unused block "mem_3" (FF) removed.
+          The signal "mem_mux0000<3>" is unused and has been removed.
+           Unused block "mem_mux0000<3>1" (ROM) removed.
+        The signal "bwa<2>" is unused and has been removed.
+         Unused block "bwa_2" (FF) removed.
+          The signal "bwa_mux0000<0>" is unused and has been removed.
+           Unused block "bwa_mux0000<0>1" (ROM) removed.
+            The signal "bwa<1>" is unused and has been removed.
+             Unused block "bwa_1" (FF) removed.
+              The signal "bwa_mux0000<1>" is unused and has been removed.
+               Unused block "bwa_mux0000<1>1" (ROM) removed.
+        The signal "addra<3>" is unused and has been removed.
+         Unused block "addra_3" (FF) removed.
+          The signal "addra_add0000<3>" is unused and has been removed.
+           Unused block "Madd_addra_add0000_xor<3>11" (ROM) removed.
+            The signal "Madd_addra_add0000_lut<1>" is unused and has been removed.
+             Unused block "_old_addra_16<1>1" (ROM) removed.
+              The signal "_old_addra_15<1>" is unused and has been removed.
+               Unused block "_old_addra_15<1>" (ROM) removed.
+                The signal "ad2<1>" is unused and has been removed.
+                 Unused block "ad2_1" (FF) removed.
+                  The signal "ad2_not0001" is unused and has been removed.
+                   Unused block "ad2_not00011" (ROM) removed.
+                The signal "ad2<0>" is unused and has been removed.
+                 Unused block "ad2_0" (FF) removed.
+            The signal "Madd_addra_add0000_lut<2>" is unused and has been removed.
+             Unused block "_old_addra_16<2>1" (ROM) removed.
+              The signal "_old_addra_15<2>" is unused and has been removed.
+               Unused block "_old_addra_15<2>" (MUX) removed.
+                The signal "N69" is unused and has been removed.
+                 Unused block "_old_addra_15<2>_F" (ROM) removed.
+                  The signal "mem<2>" is unused and has been removed.
+                   Unused block "mem_2" (FF) removed.
+                    The signal "mem_mux0000<2>" is unused and has been removed.
+                     Unused block "mem_mux0000<2>1" (ROM) removed.
+                  The signal "addra<2>" is unused and has been removed.
+                   Unused block "addra_2" (FF) removed.
+                    The signal "addra_add0000<2>" is unused and has been removed.
+                     Unused block "Madd_addra_add0000_xor<2>11" (ROM) removed.
+                The signal "N70" is unused and has been removed.
+                 Unused block "_old_addra_15<2>_G" (ROM) removed.
+                  The signal "ad2<2>" is unused and has been removed.
+                   Unused block "ad2_2" (FF) removed.
+      The signal "N72" is unused and has been removed.
+       Unused block "_old_addra_15<3>_G" (ROM) removed.
+        The signal "ad2<3>" is unused and has been removed.
+         Unused block "ad2_3" (FF) removed.
+The signal "Msub_old_addra_15_addsub0000_cy<2>" is unused and has been removed.
+ Unused block "Msub_old_addra_15_addsub0000_cy<2>11" (ROM) removed.
+The signal "Msub_old_addra_15_addsub0000_cy<5>" is unused and has been removed.
+ Unused block "Msub_old_addra_15_addsub0000_cy<5>11" (ROM) removed.
+  The signal "ad1<1>" is unused and has been removed.
+   Unused block "ad1_1" (FF) removed.
+    The signal "ad1_not0001" is unused and has been removed.
+     Unused block "ad1_not00011" (ROM) removed.
+  The signal "ad1<0>" is unused and has been removed.
+   Unused block "ad1_0" (FF) removed.
+The signal "N24" is unused and has been removed.
+ Unused block "z_mux000023_SW0" (ROM) removed.
+The signal "N26" is unused and has been removed.
+ Unused block "z_mux0000321_SW0" (ROM) removed.
+The signal "N39" is unused and has been removed.
+ Unused block "jmp_mux0000<2>211" (ROM) removed.
+The signal "N5" is unused and has been removed.
+ Unused block "_old_addra_15<6>_SW0" (ROM) removed.
+  The signal "mem<6>" is unused and has been removed.
+   Unused block "mem_6" (FF) removed.
+    The signal "mem_mux0000<6>" is unused and has been removed.
+     Unused block "mem_mux0000<6>1" (ROM) removed.
+      The signal "_old_addra_15<6>" is unused and has been removed.
+       Unused block "_old_addra_15<6>" (ROM) removed.
+        The signal "ad1<2>" is unused and has been removed.
+         Unused block "ad1_2" (FF) removed.
+  The signal "addra<6>" is unused and has been removed.
+   Unused block "addra_6" (FF) removed.
+    The signal "addra_add0000<6>" is unused and has been removed.
+     Unused block "Madd_addra_add0000_xor<6>11" (ROM) removed.
+      The signal "N9" is unused and has been removed.
+       Unused block "_old_addra_16<0>11" (ROM) removed.
+The signal "N53" is unused and has been removed.
+ Unused block "Msub__AUX_14_cy<2>11_SW0" (ROM) removed.
+The signal "N54" is unused and has been removed.
+ Unused block "Msub__AUX_14_cy<2>11_SW1" (ROM) removed.
+The signal "N56" is unused and has been removed.
+ Unused block "z_mux000023_SW1" (ROM) removed.
+The signal "N67" is unused and has been removed.
+ Unused block "_old_addra_15<4>57_SW0" (ROM) removed.
+The signal "N85" is unused and has been removed.
+ Unused block "_old_addra_15<7>_F" (ROM) removed.
+  The signal "mem<7>" is unused and has been removed.
+   Unused block "mem_7" (FF) removed.
+    The signal "mem_mux0000<7>" is unused and has been removed.
+     Unused block "mem_mux0000<7>1" (ROM) removed.
+      The signal "_old_addra_15<7>" is unused and has been removed.
+       Unused block "_old_addra_15<7>" (MUX) removed.
+        The signal "N86" is unused and has been removed.
+         Unused block "_old_addra_15<7>_G" (ROM) removed.
+          The signal "ad1<3>" is unused and has been removed.
+           Unused block "ad1_3" (FF) removed.
+  The signal "addra<7>" is unused and has been removed.
+   Unused block "addra_7" (FF) removed.
+    The signal "addra_add0000<7>" is unused and has been removed.
+     Unused block "Madd_addra_add0000_xor<7>11" (ROM) removed.
+The signal "N91" is unused and has been removed.
+ Unused block "_old_addra_15<0>_SW0" (ROM) removed.
+  The signal "mem<0>" is unused and has been removed.
+   Unused block "mem_0" (FF) removed.
+    The signal "mem_mux0000<0>" is unused and has been removed.
+     Unused block "mem_mux0000<0>1" (ROM) removed.
+      The signal "_old_addra_15<0>" is unused and has been removed.
+       Unused block "_old_addra_15<0>" (ROM) removed.
+  The signal "addra<0>" is unused and has been removed.
+   Unused block "addra_0" (FF) removed.
+    The signal "addra_add0000<0>" is unused and has been removed.
+     Unused block "Madd_addra_add0000_xor<0>11" (ROM) removed.
+The signal "_old_addra_15<4>" is unused and has been removed.
+ Unused block "_old_addra_15<4>57" (ROM) removed.
+The signal "_old_addra_15<5>" is unused and has been removed.
+ Unused block "_old_addra_15<5>_f5" (MUX) removed.
+  The signal "_old_addra_15<5>2" is unused and has been removed.
+   Unused block "_old_addra_15<5>2" (ROM) removed.
+    The signal "mem<5>" is unused and has been removed.
+     Unused block "mem_5" (FF) removed.
+      The signal "mem_mux0000<5>" is unused and has been removed.
+       Unused block "mem_mux0000<5>1" (ROM) removed.
+    The signal "addra<5>" is unused and has been removed.
+     Unused block "addra_5" (FF) removed.
+      The signal "addra_add0000<5>" is unused and has been removed.
+       Unused block "Madd_addra_add0000_xor<5>11" (ROM) removed.
+  The signal "_old_addra_15<5>1" is unused and has been removed.
+   Unused block "_old_addra_15<5>1" (ROM) removed.
+The signal "_old_bwa_6<0>" is unused and has been removed.
+ Unused block "_old_bwa_6<0>1" (ROM) removed.
+  The signal "bwa<0>" is unused and has been removed.
+   Unused block "bwa_0" (FF) removed.
+    The signal "bwa_mux0000<2>" is unused and has been removed.
+     Unused block "bwa_mux0000<2>1" (ROM) removed.
+The signal "addra<1>" is unused and has been removed.
+ Unused block "addra_1" (FF) removed.
+  The signal "addra_add0000<1>" is unused and has been removed.
+   Unused block "Madd_addra_add0000_xor<1>11" (ROM) removed.
+The signal "addra<4>" is unused and has been removed.
+ Unused block "addra_4" (FF) removed.
+  The signal "addra_add0000<4>" is unused and has been removed.
+   Unused block "Madd_addra_add0000_xor<4>11" (ROM) removed.
+The signal "b_mux0000<3>1" is unused and has been removed.
+ Unused block "b_mux0000<3>1" (ROM) removed.
+The signal "dina<0>" is unused and has been removed.
+ Unused block "dina_0" (FF) removed.
+  The signal "dina_not0001" is unused and has been removed.
+   Unused block "dina_not00011" (ROM) removed.
+The signal "dina<1>" is unused and has been removed.
+ Unused block "dina_1" (FF) removed.
+The signal "dina<2>" is unused and has been removed.
+ Unused block "dina_2" (FF) removed.
+The signal "dina<3>" is unused and has been removed.
+ Unused block "dina_3" (FF) removed.
+The signal "mem<1>" is unused and has been removed.
+ Unused block "mem_1" (FF) removed.
+  The signal "mem_mux0000<1>" is unused and has been removed.
+   Unused block "mem_mux0000<1>1" (ROM) removed.
+The signal "mem<4>" is unused and has been removed.
+ Unused block "mem_4" (FF) removed.
+  The signal "mem_mux0000<4>" is unused and has been removed.
+   Unused block "mem_mux0000<4>1" (ROM) removed.
+The signal "wea" is unused and has been removed.
+ Unused block "wea" (SFF) removed.
+  The signal "wea_or0000" is unused and has been removed.
+   Unused block "wea_or00001" (ROM) removed.
+The signal "z_mux00005" is unused and has been removed.
+ Unused block "z_mux00005" (ROM) removed.
+The signal "a_mux0000<0>12/O" is unused and has been removed.
+ Unused block "a_mux0000<0>12" (ROM) removed.
+The signal "_old_addra_15<4>44/O" is unused and has been removed.
+ Unused block "_old_addra_15<4>44" (ROM) removed.
+The signal "b_mux0000<0>8/O" is unused and has been removed.
+ Unused block "b_mux0000<0>8" (ROM) removed.
+The signal "_old_addra_15<1>_SW0/O" is unused and has been removed.
+ Unused block "_old_addra_15<1>_SW0" (ROM) removed.
+The signal "a_mux0000<1>35/O" is unused and has been removed.
+ Unused block "a_mux0000<1>35" (ROM) removed.
+The signal "b_mux0000<1>33/O" is unused and has been removed.
+ Unused block "b_mux0000<1>33" (ROM) removed.
+The signal "b_mux0000<2>44/O" is unused and has been removed.
+ Unused block "b_mux0000<2>44" (ROM) removed.
+The signal "Madd_addra_add0000_cy<5>11_SW0/O" is unused and has been removed.
+ Unused block "Madd_addra_add0000_cy<5>11_SW0" (ROM) removed.
+The signal "Madd_addra_add0000_cy<5>11_SW1/O" is unused and has been removed.
+ Unused block "Madd_addra_add0000_cy<5>11_SW1" (ROM) removed.
+The signal "b_mux0000<3>25/O" is unused and has been removed.
+ Unused block "b_mux0000<3>25" (ROM) removed.
+The signal "z_mux000036/O" is unused and has been removed.
+ Unused block "z_mux000036" (ROM) removed.
+The signal "z_mux0000100_SW2_SW1/O" is unused and has been removed.
+ Unused block "z_mux0000100_SW2_SW1" (ROM) removed.
+The signal "a_mux0000<2>21/O" is unused and has been removed.
+ Unused block "a_mux0000<2>21" (ROM) removed.
+Unused block
+"sharat/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloo
+p[0].ram.r/s3_init.ram/spram.ram" (RAMB16_S36_S36) removed.
+Unused block "sharat/XST_GND" (ZERO) removed.
+Unused block "sharat/XST_VCC" (ONE) removed.
+
+To enable printing of redundant blocks removed and signals merged, set the
+detailed map report option and rerun map.
+
+Section 6 - IOB Properties
+--------------------------
+
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| IOB Name                           | Type             | Direction | IO Standard          | Diff  | Drive    | Slew | Reg (s)      | Resistor | IOB      |
+|                                    |                  |           |                      | Term  | Strength | Rate |              |          | Delay    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+| clk                                | IBUF             | INPUT     | LVCMOS25             |       |          |      |              |          | 0 / 0    |
++---------------------------------------------------------------------------------------------------------------------------------------------------------+
+
+Section 7 - RPMs
+----------------
+
+Section 8 - Guide Report
+------------------------
+Guide not run on this design.
+
+Section 9 - Area Group and Partition Summary
+--------------------------------------------
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+Area Group Information
+----------------------
+
+  No area groups were found in this design.
+
+----------------------
+
+Section 10 - Timing Report
+--------------------------
+This design was not run using timing mode.
+
+Section 11 - Configuration String Details
+-----------------------------------------
+Use the "-detail" map option to print out Configuration Strings
+
+Section 12 - Control Set Information
+------------------------------------
+No control set information for this architecture.
+
+Section 13 - Utilization by Hierarchy
+-------------------------------------
+Use the "-detail" map option to print out the Utilization by Hierarchy section.

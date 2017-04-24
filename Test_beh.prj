@@ -1,0 +1,4 @@
+verilog work "ipcore_dir/memory.v"
+verilog work "GCD.v"
+verilog work "Test.v"
+verilog work "F:/rsghe/14.7/ISE_DS/ISE//verilog/src/glbl.v"
